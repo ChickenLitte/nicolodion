@@ -1,0 +1,84 @@
+	
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="mystyle.css"/>
+    <h1>Nicolas's Website</h1>
+ <link rel="icon" type=" image/png." href="download.png">
+    </head>
+<body>
+    <div id="weborder">
+	 <h2>Welcome to my Website!!</h2>
+	 <p> this is just a (somewhat random) compilation of a bunch of stuff I wanted to include in a personal website</p>
+	 <h2>Here are some games(not created by me but I have permission to embed)</h2>
+	 <iframe width="560" height="315" allow="fullscreen; autoplay; encrypted-media" src="https://games.construct.net/26420/latest" frameborder="0" allowfullscreen="true" msallowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" allowpaymentrequest="false" referrerpolicy="unsafe-url" sandbox="allow-same-origin allow-forms allow-scripts allow-pointer-lock allow-orientation-lock allow-popups" scrolling="no"></iframe>
+	 <iframe src="https://scratch.mit.edu/projects/322341152/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+	 <marquee behavior=scroll direction=right height=20>this portion is still under work(doesn't mean you can't still use it)</marquee>
+	<h2 id="chatitle"><b>Chatbot</b></h2>
+	<!--<label for="fname"> Type here</label>-->
+	<div id="parent">
+<div id="chatresponse"></div>
+<div id="UserPrint"></div>
+
+</div>
+<div id="inputs" draggable="true">
+<img id="inputsheader" src="download.png">
+<input type="text" id="fname" onkeypress="myFunction(event,0)" value="type here">
+<br>
+<p id="listOfCommands">Start with saying <strong id="white";>"give me a list of commands"</strong>(all lowercase)"</p>
+<button onclick="myFunction(event,1)" id="chat">Try it(or hit enter)</button>
+<button onclick="myClear()" id="clearbtn">Clear Responses</button>
+
+
+</div>
+	 </div>
+	 <a id="email" href = "mailto: nwhite@friendsbalt.org?subject=Website%20Feedback&body=Dear%20Estudis%20Ahh,">click here to send feedback</a>
+	 <input type="range" min="100" max="255" value="255" class="slider" id="Red">
+	 <input type="range" min="100" max="255" value="255" class="slider" id="Green">
+	 <input type="range" min="100" max="255" value="255" class="slider" id="Blue">
+	 <input type"color" id="website color">
+	 
+	 <p id="val">Value: <span id="demo"></span></p>
+
+	 <script>
+var slider1 = document.getElementById("Red");
+var output1 = document.getElementById("demo");
+
+var slider2 = document.getElementById("Green");
+var output2 = document.getElementById("demo");
+
+var slider3 = document.getElementById("Blue");
+var output3 = document.getElementById("demo");
+
+var wecolor= document.getElementById("website color");
+
+
+slider1.oninput= function() {
+  output1.innerHTML = this.value;
+  document.getElementById("UserPrint").style.color= "rgba("+this.value+","+""+","+0+")";
+}
+slider2.oninput= function() {
+  output2.innerHTML = this.value;
+  document.getElementById("UserPrint").style.color= "rgba("+0+","+this.value+","+0+")";
+}
+
+wecolor.oninput= function(){
+	document.getElementById("weborder").style.color = this.value;
+}
+</script>
+	
+	<button id="btn" onclick="Geeks()">
+        Click me!
+    </button>
+	 
+
+<!--stuff-->
+
+<script type="text/javascript" src="myjava.js"></script>
+
+
+</body>
+</html>

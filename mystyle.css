@@ -1,0 +1,155 @@
+#speech-bubble {
+   width: 120px; 
+   height: 80px; 
+   background: 
+#5ac4ed;
+   position: absolute;
+   left:100px;
+   -moz-border-radius: 10px; 
+   -webkit-border-radius: 10px; 
+   border-radius: 10px;
+}
+#speech-bubble:before {
+   content:"";
+   position: absolute;
+   width: 0;
+   height: 0;
+   border-top: 13px solid 
+transparent;
+   border-right: 26px solid 
+#5ac4ed;
+   border-bottom: 13px solid 
+transparent;
+   margin: 13px 0 0 -25px;
+}
+
+#demo{
+color:white;
+}
+h1 {
+  font-weight: 700;
+  color: forestgreen;
+  text-align: center;
+  color:white;
+  font-family: sans-serif;
+}
+h2{
+color:white;
+}
+body{
+     background-color: black;
+	  
+}
+#weborder{
+	width: 1400px;
+	height:1400px;
+	padding: 30px;
+	border: 30px solid;
+	margin=;
+	color:blue;
+	font-family:monospace;
+}
+#val{
+color:white;
+}
+hr{
+ border: none;
+  border-top: 2px dashed ;
+  color: red;
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+marquee{
+font-weight:700;
+color:red;
+marquee-speed:500;
+}
+#inputs{
+  position: absolute;
+  float:right;
+  z-index: 9;
+  text-align: center;
+  border: 3px solid rgba(0,0,255);
+  background-color:rgba(0,0,0,0.5);
+  
+}
+#headertext{
+text-align:left;
+width: 10%;
+border: 3px solid red;
+}
+#inputsheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background:black;
+  width:5%;
+
+}
+#fname{
+float:center;
+width:300px;
+
+}
+#chatitle{
+text-indent:600px;
+font-size:50px;
+color:white;
+}
+#listOfCommands{
+font-family:normal;
+}
+#white{
+	color:white;
+}
+strong{
+color:black;
+
+}
+#chat{
+float:center;
+}
+#clearbtn{
+float:center;
+}
+a{
+float:left;
+}
+#chatresponse{
+
+
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: top;
+  text-align:left;
+  width:42%;
+  position:absolute;
+  left:4.5%;
+  opacity:2;
+  
+}
+#UserPrint{
+	display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  text-align:right;
+  width:42%;
+  float:top;
+  position:absolute;
+  right:4.5%;
+  color:white;
+  Height:1000px;
+}
+#parent{
+
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  width:100%;
+}
+#btn{
+width:250px;
+border: 5px dashed red;
+float:right;
+}
